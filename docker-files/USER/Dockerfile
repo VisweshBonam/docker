@@ -6,5 +6,5 @@ RUN useradd viswesh
 
 USER viswesh
 
-CMD ["echo","I am viswesh user"]
+# CMD ["echo","I am viswesh user"]
 CMD ["sleep", "1000"]
