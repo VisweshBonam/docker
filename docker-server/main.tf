@@ -5,7 +5,7 @@ resource "aws_instance" "docker" {
   iam_instance_profile = "TerraformAdminPermissions"
   user_data = file("docker.sh")
   tags = {
-    Name = var.docker_name
+    Name = "${var.project}-${var.environment}-${var.docker_name}"
   }
 }
 
