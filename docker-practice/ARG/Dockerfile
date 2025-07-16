@@ -5,6 +5,8 @@ ENV Course="Devops" \
 
 ARG Period="120hrs"
 
+ENV Period=$Period
+
 RUN echo = "I am learning:${Course},trainer by :${Trainer} for duration:${Period}"
 
 CMD ["sleep", "1000"]
