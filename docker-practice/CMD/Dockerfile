@@ -1,2 +1,2 @@
-FROM run:v1
+FROM visweshbonam/run
 CMD ["nginx", "-g" , "daemon off;"]
