@@ -1,7 +1,7 @@
 FROM almalinux:9
 
 ENV Course="Devops" \
-    Trainer="shiva" \
+    Trainer="shiva" 
 
 ARG Period="120hrs"
 
