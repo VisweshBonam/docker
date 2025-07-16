@@ -1,4 +1,4 @@
-FROM visweshbonam/run:v1
+FROM visweshbonam/cmd:v1
 RUN rm -rf /usr/share/nginx/html/index.html
 COPY index.html /usr/share/nginx/html/index.html
-CMD ["sleep", "1000"]
+# CMD ["sleep", "1000"]
